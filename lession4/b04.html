@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kiểm tra Email</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        text-align: center;
+        margin-top: 50px;
+      }
+      #message {
+        font-size: 18px;
+        margin-top: 10px;
+      }
+      .valid {
+        color: green;
+      }
+      .invalid {
+        color: red;
+      }
+    </style>
+  </head>
+  <body>
+    <input type="text" id="emailInput" placeholder="Nhập email" />
+    <button onclick="validateEmail()">Check</button>
+    <p id="message"></p>
+    <script src="./b04.js"></script>
+  </body>
+</html>
